@@ -1,25 +1,487 @@
+<!DOCTYPE HTML>
+<!--
+	Read Only by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Read Only by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
 
-<!doctype html>
-<html data-n-head-ssr>
-  <head >
-    <title>herryma</title><meta data-n-head="ssr" charset="utf-8"><meta data-n-head="ssr" name="viewport" content="width=device-width, initial-scale=1"><meta data-n-head="ssr" data-hid="description" name="description" content="herryma"><link data-n-head="ssr" rel="icon" type="image/x-icon" href="/favicon.ico"><link rel="preload" href="/_nuxt/d9e1c51c3c37a8f79b06.js" as="script"><link rel="preload" href="/_nuxt/417043b2388954ba096a.js" as="script"><link rel="preload" href="/_nuxt/f6231dd1810bcd8a06d4.js" as="script"><link rel="preload" href="/_nuxt/3fd2946e02d53352f00d.js" as="script"><link rel="preload" href="/_nuxt/96c0527c830eba308437.js" as="script"><link rel="preload" href="/_nuxt/6187a017a876dae1d110.js" as="script"><link rel="preload" href="/_nuxt/7b6528257530370ae523.js" as="script"><link rel="preload" href="/_nuxt/c12df20de646ce4b9549.js" as="script"><link rel="preload" href="/_nuxt/9c2e9e10051e2f5491b1.js" as="script"><link rel="preload" href="/_nuxt/e0d6d4555ec7c5d4e1b8.js" as="script"><style data-vue-ssr-id="4f857918:0 580296fa:0 23f058df:0 407e83d9:0 3191d5ad:0 7a6dbd26:0 5c9a4b6e:0 584c6468:0 1609d36f:0 0b7ebdae:0 4a062119:0 6cf28622:0 2bb4e1de:0 28881214:0 19248d86:0 8c43ed24:0">/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:block}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}[hidden],template{display:none}
-body{height:100%;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}label{font-weight:700}html{box-sizing:border-box}#app,html{height:100%}*,:after,:before{box-sizing:inherit}*{word-break:break-all;word-wrap:break-word;word-break:break-word}a,a:hover{cursor:pointer;color:inherit;text-decoration:none}a,a:active,a:focus,a:hover,div:focus{outline:none}.clearfix:after{visibility:hidden;display:table;font-size:0;content:" ";clear:both;height:0}ul{list-style:none;padding:0;margin:0}h1,h2,h3,h4,h5,h6{margin:0;padding:0;font-weight:400}p{margin:0}dd,dl,dt{margin:0;padding:0}
-@font-face{font-family:iconfont;src:url(/_nuxt/fonts/4ec662d.eot);src:url(/_nuxt/fonts/4ec662d.eot#iefix) format("embedded-opentype"),url("data:application/x-font-woff2;charset=utf-8;base64,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") format("woff2"),url(/_nuxt/fonts/e135793.woff) format("woff"),url(/_nuxt/fonts/bc68497.ttf) format("truetype"),url(/_nuxt/img/f7a6f41.svg#iconfont) format("svg")}.iconfont{font-family:iconfont!important;font-size:16px;font-style:normal;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.iconhanbao:before{content:"\e6a9"}.iconic_ORCID:before{content:"\e695"}.iconic_linkedin:before{content:"\e696"}.iconic_GoogleScholar:before{content:"\e697"}.iconguanbi:before{content:"\e668"}.iconxiangxia:before{content:"\e81c"}.iconwenjianjia:before{content:"\e68d"}.iconxiazai:before{content:"\e690"}.iconwenjian:before{content:"\e693"}.iconwenjianjia-xianxing:before{content:"\e694"}.iconshangchuan:before{content:"\e68c"}.iconwutu:before{content:"\e692"}
-em{font-style:normal}.fl{float:left}.fr{float:right}.box{display:inline-block;position:relative}.box:before{content:"";display:block;padding-top:100%}.ratio2_1:before{padding-top:50%}.ratio1_2:before{padding-top:200%}.ratio4_3:before{padding-top:75%}.ratio4_5:before{padding-top:125%}.ratio16_9:before{padding-top:56.25%}@media screen and (min-width:1280px){html{overflow-y:auto;overflow-x:hidden}html body{position:absolute;width:100vw;padding-right:0!important}}@font-face{font-family:sectionFont;src:url(/_nuxt/fonts/932da3e.eot),url(/_nuxt/fonts/fe54f88.ttf)}@font-face{font-family:enFont;src:url(/_nuxt/fonts/6974550.woff),url(/_nuxt/fonts/c57ef6a.ttf)}@font-face{font-family:italicFont;src:url(/_nuxt/fonts/b8bc865.woff),url(/_nuxt/fonts/d0834c1.ttf)}html{overflow-y:scroll}html.scrollHidden::-webkit-scrollbar{display:none}.en body{font-family:enFont}body{font-family:enFont,Helvetica Neue,Helvetica,Arial,PingFang SC,Microsoft YaHei,sans-serif}._font_weight{font-family:sectionFont,enFont,Helvetica Neue,Helvetica,Arial,PingFang SC,Microsoft YaHei,sans-serif}._italic{font-family:italicFont,enFont,Helvetica Neue,Helvetica,Arial,PingFang SC,Microsoft YaHei,sans-serif}@media screen and (min-width:1280px){html body{width:100%}}.app-wrapper{background-color:#fff}.line{height:32px!important}.underLine:hover{text-decoration:underline;cursor:pointer}._header .panel{position:absolute;width:214px;background:rgba(0,0,0,.7);border-radius:8px;right:0;top:30px;padding:16px}._header .panel .frame-item{font-size:14px;font-weight:700;line-height:14px;letter-spacing:1px;color:#fff;padding-bottom:16px;color:#999;width:100%}._header .panel .frame-item:hover{color:#fff}._header .panel .frame-item:last-child{padding-bottom:0}._header .panel .frame-item.active{color:#fff}
-.nuxt-progress{position:fixed;top:0;left:0;right:0;height:2px;width:0;opacity:1;transition:width .1s,opacity .4s;background-color:#fff;z-index:999999}.nuxt-progress.nuxt-progress-notransition{transition:none}.nuxt-progress-failed{background-color:red}
-.global-overlay[data-v-4edc6960]{position:fixed;z-index:999999;left:0;top:0;width:100%;height:100%;background:#fff}.nuxt-main[data-v-4edc6960]{min-height:calc(100vh - 56px)}
-._header[data-v-43c664fc]:before{content:"";width:100%;height:80px;display:block;position:fixed;z-index:9;background:#212121}.navFrameList[data-v-43c664fc]{overflow:hidden;height:80px;flex:1}.nav[data-v-43c664fc]{width:100%;padding-right:48px;position:fixed;z-index:999;left:0;top:0;background:transparent;display:flex;justify-content:flex-end}.nav nav[data-v-43c664fc]{display:flex;align-items:center;flex-wrap:wrap;justify-content:flex-end}.nav nav[data-v-43c664fc],.nav nav dd[data-v-43c664fc]{font-size:14px;font-weight:700;color:#fff;line-height:14px}.nav nav dd[data-v-43c664fc]{margin-right:40px;cursor:pointer;letter-spacing:1px;height:80px;line-height:80px}.en .nav nav dd[data-v-43c664fc]{letter-spacing:.6px}.nav nav dd[data-v-43c664fc]:last-child{margin-right:0}.btnLang[data-v-43c664fc]{width:54px;margin-left:40px;height:28px;line-height:28px;border-radius:16px;opacity:.8;border:1px solid hsla(0,0%,100%,.8);font-size:14px;text-align:center;color:#fff;cursor:pointer;margin-top:26px}.en .btnLang[data-v-43c664fc]{font-size:12px}.iconhanbao[data-v-43c664fc]{margin-top:30px;color:#ccc;margin-left:34px;cursor:pointer;align-self:flex-start;position:relative}.iconhanbao[data-v-43c664fc]:before{content:"\e6a9";display:block;transition:.2s;transform-origin:center}.iconhanbao.rotate[data-v-43c664fc]:before{transform:rotate(90deg)}
-.container-r ._banner[data-v-4b641d2f]{position:relative;width:100%;height:561px;background-position:50%;background-repeat:no-repeat;background-size:cover;display:flex;align-items:center;justify-content:center}.container-r ._banner .banner_text[data-v-4b641d2f]{width:980px;font-size:68px;font-weight:600;color:#fff;line-height:95px;letter-spacing:5px;overflow:hidden;text-align:center;display:flex;justify-content:center}.en .container-r ._banner .banner_text[data-v-4b641d2f]{line-height:68px}.container-r[data-v-4b641d2f]{padding-top:80px;position:relative}.container-r.hasbanner[data-v-4b641d2f]{padding-top:0}.section_wrapper .frame>section[data-v-4b641d2f]{width:1000px;margin:72px auto 0}.container-r>.main[data-v-4b641d2f]{padding-bottom:100px}.section_wrapper .hTitle[data-v-4b641d2f]{margin-bottom:24px}.section_wrapper .hTitle h5[data-v-4b641d2f]{font-size:24px;font-weight:600;color:rgba(26,26,26,.9);line-height:24px;letter-spacing:1px}.en .section_wrapper .hTitle h5[data-v-4b641d2f]{letter-spacing:.6px}
-._firstbanner[data-v-170541c1]{margin-top:0!important;position:relative;z-index:99}._section_banner[data-v-170541c1]{width:100%!important}
-.container-r ._banner[data-v-32211cca]{position:relative;width:100%;height:561px;background-position:50%;background-repeat:no-repeat;background-size:cover;display:flex;align-items:center;justify-content:center}.container-r ._banner .banner_text[data-v-32211cca]{position:relative;width:980px;font-size:68px;font-weight:600;color:#fff;line-height:95px;letter-spacing:5px;overflow:hidden;text-align:center;display:flex;justify-content:center}.en .container-r ._banner .banner_text[data-v-32211cca]{line-height:68px}.container-r ._banner[data-v-32211cca]:before{content:"";position:absolute;width:100%;height:100%;background-color:rgba(0,0,0,.3);top:0;left:0}.hideMask[data-v-32211cca]:before{display:none}
-.profile-con[data-v-d284967c]{display:flex;width:100%}.profile-con .pc-l[data-v-d284967c]{display:flex;justify-content:space-between;align-items:flex-start}.profile-con.type1[data-v-d284967c]{flex-direction:column}.profile-con.type1 .pc-l[data-v-d284967c]{margin-bottom:40px}.profile-con.type2 .pc-l[data-v-d284967c]{flex-direction:column;margin-right:40px;width:400px}.profile-con.type2 .pc-r[data-v-d284967c]{flex:1}.profile-con.type2 .avatar[data-v-d284967c]{margin-bottom:40px}.profile-con.type3[data-v-d284967c]{flex-direction:column}.profile-con.type3 .pc-l[data-v-d284967c]{flex-direction:row-reverse;margin-bottom:40px}.profile-con.type3 .avatar-desc[data-v-d284967c]{max-width:560px;flex:auto}.profile-con .avatar[data-v-d284967c]{width:400px;height:510px;background-size:cover;box-shadow:0 11px 35px 0 rgba(0,0,0,.1);border-radius:16px;overflow:hidden}.avatar[data-v-d284967c]{background-position:50%}.avatar-desc[data-v-d284967c]{flex:1}.avatar-desc h2[data-v-d284967c]{font-size:24px;font-weight:700;color:rgba(26,26,26,.9);line-height:24px;letter-spacing:1px}.en .avatar-desc h2[data-v-d284967c]{letter-spacing:.6px}.avatar-desc p[data-v-d284967c]{font-size:18px;font-weight:400;color:#989898;line-height:32px;letter-spacing:1px}.profile-con.type1 .pc-l .avatar[data-v-d284967c]{margin-right:40px}.avatar-desc h2[data-v-d284967c]{line-height:50px;margin-bottom:8px}.profile-con .pc-r p[data-v-d284967c]{font-size:18px;font-weight:400;color:#616161;line-height:32px;letter-spacing:1px}.en .profile-con .pc-r p[data-v-d284967c]{letter-spacing:.6px}.profile-con .pc-r p[data-v-d284967c]:first-child{margin-top:0}.en .avatar-desc p[data-v-d284967c]{line-height:28px;letter-spacing:.6px}.en .profile-con .pc-r p[data-v-d284967c]{line-height:28px}
-.section_wrapper .hTitle[data-v-ceceed24]{margin-bottom:24px}.section_wrapper .hTitle h5[data-v-ceceed24]{font-size:24px;font-weight:600;color:rgba(26,26,26,.9);line-height:24px;letter-spacing:1px}.en .section_wrapper .hTitle h5[data-v-ceceed24]{letter-spacing:.6px}
-._row .item_t4[data-v-35e4ad9f]{display:flex;margin-bottom:20px}._row .item_t4[data-v-35e4ad9f]:last-child{margin-bottom:0}._row .item_t4 .timer[data-v-35e4ad9f]{width:188px;margin-right:22px;font-weight:700}._row .item_t4 .desc[data-v-35e4ad9f],._row .item_t4 .timer[data-v-35e4ad9f]{font-size:18px;color:#4c4c4c;line-height:32px}._row .item_t4 .desc[data-v-35e4ad9f]{flex:1;font-weight:400;letter-spacing:1px}.en ._row .item_t4 .desc[data-v-35e4ad9f]{letter-spacing:.6px}._row .item_t4 .desc ._p[data-v-35e4ad9f]{display:inline;letter-spacing:1px}.en ._row .item_t4 .desc ._p[data-v-35e4ad9f]{letter-spacing:.6px}._row .item_t4 .desc ._p.degree[data-v-35e4ad9f]{font-weight:700}.en ._row .item_t4 .desc[data-v-35e4ad9f],.en ._row .item_t4 .timer[data-v-35e4ad9f]{line-height:28px}
-._row .item_t4[data-v-6a591a3d]{display:flex;margin-bottom:20px}._row .item_t4[data-v-6a591a3d]:last-child{margin-bottom:0}._row .item_t4 .timer[data-v-6a591a3d]{width:188px;margin-right:22px;font-weight:700}._row .item_t4 .desc[data-v-6a591a3d],._row .item_t4 .timer[data-v-6a591a3d]{font-size:18px;color:#4c4c4c;line-height:32px}._row .item_t4 .desc[data-v-6a591a3d]{flex:1;font-weight:400;letter-spacing:1px}.en ._row .item_t4 .desc[data-v-6a591a3d]{letter-spacing:.6px}._row .item_t4 .desc ._p[data-v-6a591a3d]{display:inline;letter-spacing:1px}.en ._row .item_t4 .desc ._p[data-v-6a591a3d]{letter-spacing:.6px}._row .item_t4 .desc ._p.degree[data-v-6a591a3d]{font-weight:700}.en ._row .item_t4 .desc[data-v-6a591a3d],.en ._row .item_t4 .timer[data-v-6a591a3d]{line-height:28px}
-.en .contact-con[data-v-b7b59188]{padding-top:12px}.contact-con ._row1[data-v-b7b59188]{display:flex;flex-direction:column}.contact-con ._row1 ._person[data-v-b7b59188]{display:flex}.contact-con ._row1 ._person h1[data-v-b7b59188]{font-size:36px;font-weight:700;color:#4c4c4c;line-height:50px;letter-spacing:1px}.en .contact-con ._row1 ._person h1[data-v-b7b59188]{line-height:43px;letter-spacing:.6px}.contact-con ._row1 ._person .nav-extra[data-v-b7b59188]{margin-left:16px;display:flex;align-items:center;height:50px}.en .contact-con ._row1 ._person .nav-extra[data-v-b7b59188]{height:43px}.contact-con ._row1 ._person .nav-extra img[data-v-b7b59188]{cursor:pointer;width:24px;margin-right:8px}.contact-con ._academicTitle[data-v-b7b59188]{margin-top:12px}.contact-con ._desc[data-v-b7b59188]{margin-top:4px}.en .contact-con ._academicTitle[data-v-b7b59188]{margin-top:14px}.en .contact-con ._desc[data-v-b7b59188]{margin-top:4px}.contact-con ._academicTitle[data-v-b7b59188],.contact-con ._desc[data-v-b7b59188]{font-size:18px;font-weight:400;color:#4c4c4c;line-height:32px;letter-spacing:1px}.en .contact-con ._academicTitle[data-v-b7b59188],.en .contact-con ._desc[data-v-b7b59188]{line-height:28px;letter-spacing:.6px}.contact-con ._row2[data-v-b7b59188]{margin-top:24px}.contact-con>div[data-v-b7b59188]:nth-of-type(2){margin-top:32px}.contact-con ._row2 h5[data-v-b7b59188]{font-size:16px;font-weight:700;color:#0a0a1a;line-height:22px;letter-spacing:1px}.en .contact-con ._row2 h5[data-v-b7b59188]{font-size:18px;color:rgba(26,26,26,.9);line-height:24px;letter-spacing:.6px}.contact-con ._row2 p[data-v-b7b59188]{margin-top:4px;font-size:18px;font-weight:400;color:#565656;line-height:32px;letter-spacing:1px}.en .contact-con ._row2 p[data-v-b7b59188]{margin-top:2px;letter-spacing:.6px}
-.footer[data-v-2f54d313]{padding:0 130px;height:56px;position:relative;background:#23222b;display:flex;border-top:1px solid hsla(0,0%,95.7%,.06)}.footer_inner[data-v-2f54d313]{display:flex;justify-content:space-between;align-items:center;width:1000px;margin:0 auto}.footer p[data-v-2f54d313]{font-size:12px;font-weight:400;color:#f9f9f8;line-height:17px}.footer p span[data-v-2f54d313]{margin-right:14px}.footer .footer-logo[data-v-2f54d313]{width:72px;height:13px;background:url(/_nuxt/img/d0461c2.svg) no-repeat 50%;background-size:100% 100%;cursor:pointer}</style>
-  </head>
-  <body >
-    <div data-server-rendered="true" id="__nuxt"><!----><div id="__layout"><div class="container en" data-v-4edc6960><header class="_header" data-v-43c664fc data-v-4edc6960><div class="nav _font_weight" data-v-43c664fc><div class="navFrameList" data-v-43c664fc><nav id="nav" data-v-43c664fc><dd data-type="about" data-v-43c664fc>About me</dd><dd data-type="publish" data-v-43c664fc>Publications</dd><dd data-type="course" data-v-43c664fc>Courses</dd><dd data-type="resume" data-v-43c664fc>CV</dd><dd data-type="project" data-v-43c664fc>Projects</dd><dd data-type="team" data-v-43c664fc>Team</dd><dd data-type="positions" data-v-43c664fc>Academic Positions</dd></nav></div><i class="iconfont iconhanbao" style="display:none;" data-v-43c664fc><nav class="panel" style="display:none;" data-v-43c664fc></nav></i><div class="btnLang" data-v-43c664fc>中文</div></div></header><div class="nuxt-main" data-v-4edc6960><div class="home" data-v-6368552a data-v-4edc6960><section class="container-r" data-v-4b641d2f data-v-6368552a><div class="main" data-v-4b641d2f><div class="section_wrapper" data-v-4b641d2f><div class="frame" data-v-4b641d2f><section class="_firstbanner _section_banner" data-v-170541c1 data-v-4b641d2f><!----><!----><!----><!----><!----><!----><div data-v-32211cca data-v-170541c1><div class="_banner _font_weight" style="background-image:url(http://mbjtestimg.academic.site/DYF1eabf8h2d.jpg);" data-v-32211cca><h1 class="banner_text" data-v-32211cca>Henry Ma</h1></div></div><!----><!----><!----><!----><!----><!----><!----></section><section data-v-170541c1 data-v-4b641d2f><div data-v-d284967c data-v-170541c1><header class="hTitle _font_weight" data-v-ceceed24 data-v-d284967c><h5 data-v-ceceed24>Biography</h5></header><div class="profile-con type1" data-v-d284967c><div class="pc-l" data-v-d284967c><div class="avatar box" style="background-image:url(http://mbjtestimg.academic.site/DYF1eac8qtiv.png);" data-v-d284967c></div><div class="avatar-desc" data-v-d284967c><h2 data-v-d284967c>Henry Ma</h2><p data-v-d284967c>Professor, Doctoral Supervisor, Department Head</p><p data-v-d284967c>Director, Institute of Data Science &amp; Intelligent Decision</p><p data-v-d284967c>Deputy Director, AI &amp; Data Science Application Laboratory</p></div></div><div class="pc-r" data-v-d284967c><p data-v-d284967c>Dr. Henry Ma is Professor and Department Head in Department of Information Management and Decision Sciences in School of Business and Management at Cambridge University, who has received his Ph.D in Management in 2013 and the bachelor degree in Information Management and Information Systems in 2007 both from Cambridge University. He is now Director of Institute of Data Science &amp; Intelligent Decision and Deputy Director of Artificial Intelligence &amp; Data Science Application Lab. His research interests focus on mobile big data analytics, business analytics and decision-making, e-commerce and search services as well as policy informatics.  Dr. Henry Madison has published over 20 research papers, several of which have been published in main-stream IS international academic journals.</p></div></div></div><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----></section><section data-v-170541c1 data-v-4b641d2f><!----><!----><!----><!----><!----><div data-v-35e4ad9f data-v-170541c1><header class="hTitle _font_weight" data-v-ceceed24 data-v-35e4ad9f><h5 data-v-ceceed24>Experiences</h5></header><div class="_row" data-v-35e4ad9f><div class="item_t4" data-v-35e4ad9f><div class="timer" data-v-35e4ad9f>Apr. 2019 - Present.</div><div class="desc" data-v-35e4ad9f><span class="_p" data-v-35e4ad9f>Professor, Doctoral Supervisor, Department Head, </span><span class="_p" data-v-35e4ad9f>Cambridge University, </span><span class="_p" data-v-35e4ad9f>Department of Information Management and Decision Sciences</span></div></div><div class="item_t4" data-v-35e4ad9f><div class="timer" data-v-35e4ad9f>Mar. 2018 - Mar. 2019</div><div class="desc" data-v-35e4ad9f><span class="_p" data-v-35e4ad9f>Associate Professor, Doctoral Supervisor, Associate Department Head, </span><span class="_p" data-v-35e4ad9f>Cambridge University, </span><span class="_p" data-v-35e4ad9f>Department of Management Science and Engineering</span></div></div><div class="item_t4" data-v-35e4ad9f><div class="timer" data-v-35e4ad9f>Jun. 2013 - Mar. 2018</div><div class="desc" data-v-35e4ad9f><span class="_p" data-v-35e4ad9f>Associate Professor, Master's Supervisor, </span><span class="_p" data-v-35e4ad9f>Cambridge University, </span><span class="_p" data-v-35e4ad9f>School of Economics and Management</span></div></div><div class="item_t4" data-v-35e4ad9f><div class="timer" data-v-35e4ad9f>Sep. 2007 - Jul. 2013</div><div class="desc" data-v-35e4ad9f><span class="_p" data-v-35e4ad9f>Research Assistant, </span><span class="_p" data-v-35e4ad9f>Cambridge University, </span><span class="_p" data-v-35e4ad9f>School of Economics and Management</span></div></div></div></div><!----><!----><!----><!----><!----><!----><!----><!----></section><section data-v-170541c1 data-v-4b641d2f><!----><div data-v-6a591a3d data-v-170541c1><header class="hTitle _font_weight" data-v-ceceed24 data-v-6a591a3d><h5 data-v-ceceed24>Education</h5></header><div class="_row" data-v-6a591a3d><div class="item_t4" data-v-6a591a3d><div class="timer" data-v-6a591a3d>Sep. 2007 - Jul. 2013</div><div class="desc" data-v-6a591a3d><span class="_p degree" data-v-6a591a3d>Doctor </span><span class="_p" data-v-6a591a3d>Cambridge University, </span><span class="_p" data-v-6a591a3d>Department of Management Science and Engineering, </span><span class="_p" data-v-6a591a3d>Supervisor: Raymond James</span></div></div><div class="item_t4" data-v-6a591a3d><div class="timer" data-v-6a591a3d>Sep. 2004 - Jul. 2007</div><div class="desc" data-v-6a591a3d><span class="_p degree" data-v-6a591a3d>Bachelor </span><span class="_p" data-v-6a591a3d>Cambridge University, </span><span class="_p" data-v-6a591a3d>Information Management and Information Systems, </span><span class="_p" data-v-6a591a3d>Supervisor: Prof. Zane Huett</span></div></div></div></div><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----></section><section data-v-170541c1 data-v-4b641d2f><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><div data-v-b7b59188 data-v-170541c1><header class="hTitle _font_weight" data-v-ceceed24 data-v-b7b59188><h5 data-v-ceceed24>Contact</h5></header><div class="contact-con" data-v-b7b59188><div class="_row1" data-v-b7b59188><div class="_person" data-v-b7b59188><h1 data-v-b7b59188>Henry Ma</h1><div class="nav-extra" data-v-b7b59188><img src="/_nuxt/img/bed5b3b.svg" data-v-b7b59188><!----><img src="/_nuxt/img/d04356d.svg" data-v-b7b59188><!----><!----><!----></div></div><p class="_academicTitle" data-v-b7b59188>Professor, Doctoral Supervisor, Department Head</p><div class="_desc" data-v-b7b59188><span data-v-b7b59188>Cambridge University</span><span data-v-b7b59188>, </span><span data-v-b7b59188>School of Business &amp; Management</span></div></div><div class="_row2" data-v-b7b59188><h5 data-v-b7b59188>EMAIL</h5><p data-v-b7b59188>mbj@cambridge.ac.uk</p></div><!----><!----><!----></div></div><!----></section></div></div></div></section></div></div><footer class="footer" data-v-2f54d313 data-v-4edc6960><div class="footer_inner" data-v-2f54d313><p class="record" data-v-2f54d313><span data-v-2f54d313>© 2020 LunionData</span><span data-v-2f54d313>沪ICP备18034413号-3</span><span data-v-2f54d313>沪公网安备31010102006465号</span></p><div class="footer-logo" data-v-2f54d313></div></div></footer></div></div></div><script>window.__NUXT__=(function(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z,_,$,aa,ab,ac,ad,ae,af,ag,ah,ai,aj,ak,al,am,an,ao,ap,aq,ar,as,at){return {layout:"MultiPage\u002Findex",data:[{sectionArr:[{success:a,message:k,code:l,data:{id:55,imgUrl:"http:\u002F\u002Fmbjtestimg.academic.site\u002FDYF1eabf8h2d.jpg",context:u,isHideMask:g},id:H,name:c,weight:I,frameId:e,isVisible:a,titleVisible:g,type:h,typeName:c,createTips:b,isFirstBanner:a},{success:a,message:k,code:l,data:{name:u,picDescription:"Professor, Doctoral Supervisor, Department Head\nDirector, Institute of Data Science & Intelligent Decision\nDeputy Director, AI & Data Science Application Laboratory",picUrl:"http:\u002F\u002Fmbjtestimg.academic.site\u002FDYF1eac8qtiv.png",introduction:"Dr. Henry Ma is Professor and Department Head in Department of Information Management and Decision Sciences in School of Business and Management at Cambridge University, who has received his Ph.D in Management in 2013 and the bachelor degree in Information Management and Information Systems in 2007 both from Cambridge University. He is now Director of Institute of Data Science & Intelligent Decision and Deputy Director of Artificial Intelligence & Data Science Application Lab. His research interests focus on mobile big data analytics, business analytics and decision-making, e-commerce and search services as well as policy informatics.  Dr. Henry Madison has published over 20 research papers, several of which have been published in main-stream IS international academic journals.",template:d,templateList:b},id:J,name:n,weight:d,frameId:e,isVisible:a,titleVisible:a,type:K,typeName:n,createTips:b},{success:a,message:k,code:l,data:[{id:159,organization:i,department:"Department of Information Management and Decision Sciences",academicTitle:L,weight:d,startTime:"2019-04-01",endTime:b,isPresent:a,isVisible:a,startYear:M,startMonth:"4",startDate:f,endYear:b,endMonth:b,endDate:b},{id:160,organization:i,department:N,academicTitle:"Associate Professor, Doctoral Supervisor, Associate Department Head",weight:v,startTime:O,endTime:"2019-03-01",isPresent:g,isVisible:a,startYear:P,startMonth:w,startDate:f,endYear:M,endMonth:w,endDate:f},{id:161,organization:i,department:Q,academicTitle:"Associate Professor, Master's Supervisor",weight:j,startTime:"2013-06-01",endTime:O,isPresent:g,isVisible:a,startYear:x,startMonth:"6",startDate:f,endYear:P,endMonth:w,endDate:f},{id:164,organization:i,department:Q,academicTitle:"Research Assistant",weight:y,startTime:R,endTime:S,isPresent:g,isVisible:a,startYear:z,startMonth:A,startDate:f,endYear:x,endMonth:B,endDate:f}],id:T,name:o,weight:j,frameId:e,isVisible:a,titleVisible:a,type:U,typeName:o,createTips:b},{success:a,message:k,code:l,data:[{id:388,degree:"Doctor",fieldOfStudy:N,school:i,tutor:"Raymond James",isVisible:a,startTime:R,endTime:S,isPresent:g,startYear:z,startMonth:A,startDate:f,endYear:x,endMonth:B,endDate:f},{id:386,degree:"Bachelor",fieldOfStudy:"Information Management and Information Systems",school:i,tutor:"Prof. Zane Huett",isVisible:a,startTime:"2004-09-01",endTime:"2007-07-01",isPresent:g,startYear:"2004",startMonth:A,startDate:f,endYear:z,endMonth:B,endDate:f}],id:V,name:p,weight:C,frameId:e,isVisible:a,titleVisible:a,type:W,typeName:p,createTips:b},{success:a,message:k,code:l,data:{name:u,organization:i,department:"School of Business & Management",academicTitle:L,email:"mbj@cambridge.ac.uk",telephone:X,phone:b,id:59,address:X,googleScholar:Y,orcid:b,linkedIn:Z,researchgate:b,twitter:b,publon:b},id:_,name:q,weight:y,frameId:e,isVisible:a,titleVisible:a,type:$,typeName:q,createTips:b}],templateId:aa,title:ab}],fetch:[],error:b,state:{googleScholar:Y,linkedIn:Z,orcId:b,curLanguage:r,user:{userInfo:{userId:372,templateId:aa,curLanguage:r,mainLanguage:r,zh:{url:"http:\u002F\u002Fmaboji.academic.site",language:"zh"},en:{url:b,language:r},frameList:[{id:e,name:ac,weight:d,menuId:d,isVisible:a,frameId:ad,type:"about",typeName:ac,sectionList:[{id:H,name:c,weight:I,frameId:e,isVisible:a,titleVisible:g,type:h,typeName:c,createTips:b},{id:J,name:n,weight:d,frameId:e,isVisible:a,titleVisible:a,type:K,typeName:n,createTips:b},{id:T,name:o,weight:j,frameId:e,isVisible:a,titleVisible:a,type:U,typeName:o,createTips:b},{id:V,name:p,weight:C,frameId:e,isVisible:a,titleVisible:a,type:W,typeName:p,createTips:b},{id:_,name:q,weight:y,frameId:e,isVisible:a,titleVisible:a,type:$,typeName:q,createTips:b}]},{id:s,name:ae,weight:v,menuId:d,isVisible:a,frameId:af,type:"publish",typeName:ae,sectionList:[{id:8293,name:c,weight:d,frameId:s,isVisible:a,titleVisible:a,type:h,typeName:c,createTips:b},{id:3459,name:"Journal Papers",weight:v,frameId:s,isVisible:a,titleVisible:a,type:ag,typeName:ah,createTips:b},{id:3461,name:"Conference Papers",weight:j,frameId:s,isVisible:a,titleVisible:a,type:ag,typeName:ah,createTips:b}]},{id:D,name:ai,weight:j,menuId:d,isVisible:a,frameId:10,type:aj,typeName:ai,sectionList:[{id:8295,name:c,weight:m,frameId:D,isVisible:a,titleVisible:a,type:h,typeName:c,createTips:b},{id:3473,name:ak,weight:d,frameId:D,isVisible:a,titleVisible:a,type:aj,typeName:ak,createTips:b}]},{id:E,name:t,weight:C,menuId:d,isVisible:a,frameId:11,type:al,typeName:t,sectionList:[{id:8297,name:c,weight:m,frameId:E,isVisible:a,titleVisible:a,type:h,typeName:c,createTips:b},{id:3455,name:t,weight:d,frameId:E,isVisible:a,titleVisible:a,type:al,typeName:t,createTips:b}]},{id:F,name:am,weight:an,menuId:d,isVisible:a,frameId:12,type:ao,typeName:am,sectionList:[{id:8299,name:c,weight:m,frameId:F,isVisible:a,titleVisible:a,type:h,typeName:c,createTips:b},{id:3471,name:ap,weight:an,frameId:F,isVisible:a,titleVisible:a,type:ao,typeName:ap,createTips:b}]},{id:G,name:aq,weight:ad,menuId:d,isVisible:a,frameId:17,type:"team",typeName:aq,sectionList:[{id:8301,name:c,weight:m,frameId:G,isVisible:a,titleVisible:a,type:h,typeName:c,createTips:b},{id:6637,name:ar,weight:j,frameId:G,isVisible:a,titleVisible:a,type:"member",typeName:ar,createTips:b}]},{id:as,name:at,weight:af,menuId:d,isVisible:a,frameId:19,type:"positions",typeName:at,sectionList:[{id:8303,name:c,weight:m,frameId:as,isVisible:a,titleVisible:a,type:h,typeName:c,createTips:b}]}],title:ab},currFrame:b,curr:b,lock:a}},serverRendered:a,routePath:"\u002F"}}(true,null,"Banner",1,1886,"1",false,"banner","Cambridge University",3,"操作成功",200,0,"Biography","Experiences","Education","Contact","en",1884,"CV","Henry Ma",2,"3","2013",6,"2007","9","7",4,1890,1880,1888,3340,6627,-1,3475,"profile","Professor, Doctoral Supervisor, Department Head","2019","Department of Management Science and Engineering","2018-03-01","2018","School of Economics and Management","2007-09-01","2013-07-01",3467,"academic",3469,"education","","https:\u002F\u002Fscholar.google.com\u002F","https:\u002F\u002Fwww.linkedin.com\u002Fstart\u002Fjoin?trk=brandpage_baidu_pc-mainlink",3457,"contact","T4","herryma","About me",8,"Publications",9,"literature","Literature","Courses","course","Current Courses","resume","Projects",5,"project","Current Projects","Team","Team Members",3338,"Academic Positions"));</script><script src="/_nuxt/d9e1c51c3c37a8f79b06.js" defer></script><script src="/_nuxt/3fd2946e02d53352f00d.js" defer></script><script src="/_nuxt/96c0527c830eba308437.js" defer></script><script src="/_nuxt/6187a017a876dae1d110.js" defer></script><script src="/_nuxt/7b6528257530370ae523.js" defer></script><script src="/_nuxt/c12df20de646ce4b9549.js" defer></script><script src="/_nuxt/9c2e9e10051e2f5491b1.js" defer></script><script src="/_nuxt/e0d6d4555ec7c5d4e1b8.js" defer></script><script src="/_nuxt/417043b2388954ba096a.js" defer></script><script src="/_nuxt/f6231dd1810bcd8a06d4.js" defer></script>
-  </body>
+		<!-- Header -->
+			<section id="header">
+				<header>
+					<span class="image avatar"><img src="images/avatar.jpg" alt="" /></span>
+					<h1 id="logo"><a href="#">Willis Corto</a></h1>
+					<p>I got reprogrammed by a rogue AI<br />
+					and now I'm totally cray</p>
+				</header>
+				<nav id="nav">
+					<ul>
+						<li><a href="#one" class="active">About</a></li>
+						<li><a href="#two">Things I Can Do</a></li>
+						<li><a href="#three">A Few Accomplishments</a></li>
+						<li><a href="#four">Contact</a></li>
+					</ul>
+				</nav>
+				<footer>
+					<ul class="icons">
+						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+				</footer>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one">
+								<div class="image main" data-position="center">
+									<img src="images/banner.jpg" alt="" />
+								</div>
+								<div class="container">
+									<header class="major">
+										<h2>Read Only</h2>
+										<p>Just an incredibly simple responsive site<br />
+										template freebie by <a href="http://html5up.net">HTML5 UP</a>.</p>
+									</header>
+									<p>Faucibus sed lobortis aliquam lorem blandit. Lorem eu nunc metus col. Commodo id in arcu ante lorem ipsum sed accumsan erat praesent faucibus commodo ac mi lacus. Adipiscing mi ac commodo. Vis aliquet tortor ultricies non ante erat nunc integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum.</p>
+								</div>
+							</section>
+
+						<!-- Two -->
+							<section id="two">
+								<div class="container">
+									<h3>Things I Can Do</h3>
+									<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer lorem ipsum dolor sit amet.</p>
+									<ul class="feature-icons">
+										<li class="icon solid fa-code">Write all the code</li>
+										<li class="icon solid fa-cubes">Stack small boxes</li>
+										<li class="icon solid fa-book">Read books and stuff</li>
+										<li class="icon solid fa-coffee">Drink much coffee</li>
+										<li class="icon solid fa-bolt">Lightning bolt</li>
+										<li class="icon solid fa-users">Shadow clone technique</li>
+									</ul>
+								</div>
+							</section>
+
+						<!-- Three -->
+							<section id="three">
+								<div class="container">
+									<h3>A Few Accomplishments</h3>
+									<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
+									<div class="features">
+										<article>
+											<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
+											<div class="inner">
+												<h4>Possibly broke spacetime</h4>
+												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+											</div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
+											<div class="inner">
+												<h4>Terraformed a small moon</h4>
+												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+											</div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+											<div class="inner">
+												<h4>Snapped dark matter in the wild</h4>
+												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+											</div>
+										</article>
+									</div>
+								</div>
+							</section>
+
+						<!-- Four -->
+							<section id="four">
+								<div class="container">
+									<h3>Contact Me</h3>
+									<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
+									<form method="post" action="#">
+										<div class="row gtr-uniform">
+											<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
+											<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
+											<div class="col-12"><input type="text" name="subject" id="subject" placeholder="Subject" /></div>
+											<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="6"></textarea></div>
+											<div class="col-12">
+												<ul class="actions">
+													<li><input type="submit" class="primary" value="Send Message" /></li>
+													<li><input type="reset" value="Reset Form" /></li>
+												</ul>
+											</div>
+										</div>
+									</form>
+								</div>
+							</section>
+
+						<!-- Five -->
+						<!--
+							<section id="five">
+								<div class="container">
+									<h3>Elements</h3>
+
+									<section>
+										<h4>Text</h4>
+										<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+										This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+										This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+										<hr />
+										<header>
+											<h4>Heading with a Subtitle</h4>
+											<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+										</header>
+										<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+										<header>
+											<h5>Heading with a Subtitle</h5>
+											<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+										</header>
+										<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+										<hr />
+										<h2>Heading Level 2</h2>
+										<h3>Heading Level 3</h3>
+										<h4>Heading Level 4</h4>
+										<h5>Heading Level 5</h5>
+										<h6>Heading Level 6</h6>
+										<hr />
+										<h5>Blockquote</h5>
+										<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+										<h5>Preformatted</h5>
+										<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+									</section>
+
+									<section>
+										<h4>Lists</h4>
+										<div class="row">
+											<div class="col-6 col-12-xsmall">
+												<h5>Unordered</h5>
+												<ul>
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Sagittis adipiscing lorem eleifend.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+												</ul>
+												<h5>Alternate</h5>
+												<ul class="alt">
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Sagittis adipiscing lorem eleifend.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+												</ul>
+											</div>
+											<div class="col-6 col-12-xsmall">
+												<h5>Ordered</h5>
+												<ol>
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Etiam vel felis at lorem sed viverra.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Etiam vel felis at lorem sed viverra.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+												</ol>
+												<h5>Icons</h5>
+												<ul class="icons">
+													<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+													<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+													<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+													<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+													<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+													<li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
+												</ul>
+											</div>
+										</div>
+										<h5>Actions</h5>
+										<ul class="actions">
+											<li><a href="#" class="button primary">Default</a></li>
+											<li><a href="#" class="button">Default</a></li>
+											<li><a href="#" class="button alt">Default</a></li>
+										</ul>
+										<ul class="actions small">
+											<li><a href="#" class="button primary small">Small</a></li>
+											<li><a href="#" class="button small">Small</a></li>
+											<li><a href="#" class="button alt small">Small</a></li>
+										</ul>
+										<div class="row">
+											<div class="col-3 col-6-medium col-12-xsmall">
+												<ul class="actions stacked">
+													<li><a href="#" class="button primary">Default</a></li>
+													<li><a href="#" class="button">Default</a></li>
+													<li><a href="#" class="button alt">Default</a></li>
+												</ul>
+											</div>
+											<div class="col-3 col-6 col-12-xsmall">
+												<ul class="actions stacked">
+													<li><a href="#" class="button primary small">Small</a></li>
+													<li><a href="#" class="button small">Small</a></li>
+													<li><a href="#" class="button alt small">Small</a></li>
+												</ul>
+											</div>
+											<div class="col-3 col-6-medium col-12-xsmall">
+												<ul class="actions stacked">
+													<li><a href="#" class="button primary fit">Default</a></li>
+													<li><a href="#" class="button fit">Default</a></li>
+													<li><a href="#" class="button alt fit">Default</a></li>
+												</ul>
+											</div>
+											<div class="col-3 col-6-medium col-12-xsmall">
+												<ul class="actions stacked">
+													<li><a href="#" class="button primary small fit">Small</a></li>
+													<li><a href="#" class="button small fit">Small</a></li>
+													<li><a href="#" class="button alt small fit">Small</a></li>
+												</ul>
+											</div>
+										</div>
+									</section>
+
+									<section>
+										<h4>Table</h4>
+										<h5>Default</h5>
+										<div class="table-wrapper">
+											<table>
+												<thead>
+													<tr>
+														<th>Name</th>
+														<th>Description</th>
+														<th>Price</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>Item One</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Two</td>
+														<td>Vis ac commodo adipiscing arcu aliquet.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Three</td>
+														<td> Morbi faucibus arcu accumsan lorem.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Four</td>
+														<td>Vitae integer tempus condimentum.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Five</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+												</tbody>
+												<tfoot>
+													<tr>
+														<td colspan="2"></td>
+														<td>100.00</td>
+													</tr>
+												</tfoot>
+											</table>
+										</div>
+
+										<h5>Alternate</h5>
+										<div class="table-wrapper">
+											<table class="alt">
+												<thead>
+													<tr>
+														<th>Name</th>
+														<th>Description</th>
+														<th>Price</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>Item One</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Two</td>
+														<td>Vis ac commodo adipiscing arcu aliquet.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Three</td>
+														<td> Morbi faucibus arcu accumsan lorem.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Four</td>
+														<td>Vitae integer tempus condimentum.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Five</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+												</tbody>
+												<tfoot>
+													<tr>
+														<td colspan="2"></td>
+														<td>100.00</td>
+													</tr>
+												</tfoot>
+											</table>
+										</div>
+									</section>
+
+									<section>
+										<h4>Buttons</h4>
+										<ul class="actions">
+											<li><a href="#" class="button primary">Primary</a></li>
+											<li><a href="#" class="button">Default</a></li>
+											<li><a href="#" class="button alt">Alternate</a></li>
+										</ul>
+										<ul class="actions">
+											<li><a href="#" class="button primary large">Large</a></li>
+											<li><a href="#" class="button">Default</a></li>
+											<li><a href="#" class="button alt small">Small</a></li>
+										</ul>
+										<ul class="actions fit">
+											<li><a href="#" class="button primary fit">Fit</a></li>
+											<li><a href="#" class="button fit">Fit</a></li>
+											<li><a href="#" class="button alt fit">Fit</a></li>
+										</ul>
+										<ul class="actions fit small">
+											<li><a href="#" class="button primary fit small">Fit + Small</a></li>
+											<li><a href="#" class="button fit small">Fit + Small</a></li>
+											<li><a href="#" class="button alt fit small">Fit + Small</a></li>
+										</ul>
+										<ul class="actions">
+											<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+											<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+											<li><a href="#" class="button alt icon solid fa-check">Icon</a></li>
+										</ul>
+										<ul class="actions">
+											<li><span class="button primary disabled">Primary</span></li>
+											<li><span class="button disabled">Default</span></li>
+											<li><span class="button alt disabled">Alternate</span></li>
+										</ul>
+									</section>
+
+									<section>
+										<h4>Form</h4>
+										<form method="post" action="#">
+											<div class="row gtr-uniform">
+												<div class="col-6 col-12-xsmall">
+													<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+												</div>
+												<div class="col-6 col-12-xsmall">
+													<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+												</div>
+												<div class="col-12">
+													<select name="demo-category" id="demo-category">
+														<option value="">- Category -</option>
+														<option value="1">Manufacturing</option>
+														<option value="1">Shipping</option>
+														<option value="1">Administration</option>
+														<option value="1">Human Resources</option>
+													</select>
+												</div>
+												<div class="col-4 col-12-medium">
+													<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+													<label for="demo-priority-low">Low Priority</label>
+												</div>
+												<div class="col-4 col-12-medium">
+													<input type="radio" id="demo-priority-normal" name="demo-priority">
+													<label for="demo-priority-normal">Normal Priority</label>
+												</div>
+												<div class="col-4 col-12-medium">
+													<input type="radio" id="demo-priority-high" name="demo-priority">
+													<label for="demo-priority-high">High Priority</label>
+												</div>
+												<div class="col-6 col-12-medium">
+													<input type="checkbox" id="demo-copy" name="demo-copy">
+													<label for="demo-copy">Email me a copy of this message</label>
+												</div>
+												<div class="col-6 col-12-medium">
+													<input type="checkbox" id="demo-human" name="demo-human" checked>
+													<label for="demo-human">I am a human and not a robot</label>
+												</div>
+												<div class="col-12">
+													<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+												</div>
+												<div class="col-12">
+													<ul class="actions">
+														<li><input type="submit" value="Send Message" /></li>
+														<li><input type="reset" value="Reset" class="alt" /></li>
+													</ul>
+												</div>
+											</div>
+										</form>
+									</section>
+
+									<section>
+										<h4>Image</h4>
+										<h5>Fit</h5>
+										<span class="image fit"><img src="images/banner.jpg" alt="" /></span>
+										<div class="box alt">
+											<div class="row gtr-50 gtr-uniform">
+												<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+											</div>
+										</div>
+										<h5>Left &amp; Right</h5>
+										<p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+										<p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+									</section>
+
+								</div>
+							</section>
+						-->
+
+					</div>
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="container">
+							<ul class="copyright">
+								<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
