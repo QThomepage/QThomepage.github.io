@@ -1,1 +1,0 @@
-home page made in 2024.2
